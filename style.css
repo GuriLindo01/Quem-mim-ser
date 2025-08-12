@@ -10,7 +10,8 @@ body {
 
 
 .b1, .b2, .b3 {
-    max-width: 800px;
+    width: 800px;
+    height: 500px;
     margin: 40px auto;
     padding: 30px;
     background-color: #fff;
