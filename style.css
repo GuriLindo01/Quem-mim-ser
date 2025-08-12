@@ -35,3 +35,9 @@ p {
 .texto, .texto2, .texto3 {
     margin-top: 20px;
 }
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+}
