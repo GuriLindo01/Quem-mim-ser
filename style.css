@@ -15,7 +15,7 @@ body {
     padding: 30px;
     background-color: #fff;
     border-radius: 8px;
-    justify-content: center;
+    align-items: center;
 }
 
 
@@ -40,5 +40,4 @@ p {
 img{
     height: 100px;
     width: 100px;
-    margin: auto;
 }
