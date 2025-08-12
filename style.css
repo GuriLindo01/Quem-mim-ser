@@ -1,62 +1,39 @@
-/* Importação de fontes e configurações gerais */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-/* Reset básico e configurações do corpo da página */
-* {
+/* Configurações básicas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    line-height: 1.6;
 }
 
 /* Estilo para as seções */
-section {
-    padding: 40px 20px;
+.b1, .b2, .b3 {
     max-width: 800px;
     margin: 40px auto;
+    padding: 30px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Estilo para os títulos */
 h1 {
     font-family: 'Rubik Mono One', monospace;
-    font-size: 2.5em;
-    color: #333;
+    font-size: 2.2em;
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo para os parágrafos de texto */
+/* Estilo para os parágrafos */
 p {
     font-size: 1em;
-    margin-bottom: 15px;
     text-align: justify;
+    margin-bottom: 15px;
 }
 
-/* Estilo para o primeiro parágrafo de cada bloco */
-.texto p:first-child,
-.texto2 p:first-child,
-.texto3 p:first-child {
-    margin-top: 0;
-}
-
-/* Responsividade básica para telas menores */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.8em;
-    }
-
-    section {
-        margin: 20px 10px;
-        padding: 20px 15px;
-    }
+/* Estilo para os contêineres de texto */
+.texto, .texto2, .texto3 {
+    margin-top: 20px;
 }
