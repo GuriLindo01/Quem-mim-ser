@@ -1,4 +1,4 @@
-/* Configurações básicas */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Estilo para as seções */
+
 .b1, .b2, .b3 {
     max-width: 800px;
     margin: 40px auto;
@@ -18,7 +18,7 @@ body {
     border-radius: 8px;
 }
 
-/* Estilo para os títulos */
+
 h1 {
     font-family: sans-serif;
     font-size: 20px;
@@ -26,14 +26,13 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilo para os parágrafos */
+
 p {
-    font-size: 1em;
+    font-size: 13px;
     text-align: justify;
     margin-bottom: 15px;
 }
 
-/* Estilo para os contêineres de texto */
 .texto, .texto2, .texto3 {
     margin-top: 20px;
 }
